@@ -1,0 +1,13 @@
+Model: YOLOv8-Small (YOLOv8s)
+
+Architecture Summary
+
+Type: One-stage object detector
+Backbone: CSP-Darknet style CNN
+Neck: PAN-FPN (multi-scale feature aggregation)
+Head: Anchor-free detection head
+Input Resolution: 640 × 640
+Parameters: ~11M
+Pretraining: COCO dataset
+
+YOLOv8s was chosen instead of YOLOv8n to improve recall and mAP on a small but visually diverse dataset.
