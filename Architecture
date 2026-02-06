@@ -11,3 +11,12 @@ Parameters: ~11M
 Pretraining: COCO dataset
 
 YOLOv8s was chosen instead of YOLOv8n to improve recall and mAP on a small but visually diverse dataset.
+
+Training Configuration:
+25 Epochs
+
+Compute Environment:
+T4 GPU by Google Colab
+Max RAM (GPU): 15GB (available), 1GB (used) 
+
+Training time: ~5 mins.
